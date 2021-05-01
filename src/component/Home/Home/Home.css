@@ -1,0 +1,25 @@
+.Typewriter__wrapper {
+    font-size: 1.2em!important;
+    color: #f9004d!important;
+    font-weight: 900!important;
+    font-family: montserrat;
+}
+.size{
+    height:470px;
+    font-size: 3.2em!important;
+    
+}
+.margin{
+    margin-top:100px;
+}
+.margin h3{
+    font-size: 1.2em!important;
+    font-family: awesome;
+}
+
+.img{
+    margin-top:50px;
+    margin-left: 100px;
+    width:300px;
+    height: 300px;
+}

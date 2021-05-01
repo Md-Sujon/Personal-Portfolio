@@ -1,0 +1,46 @@
+
+.Header{
+    text-align: right;
+    
+    
+    
+}
+.Header nav{
+    /* background-color: rgb(2, 109, 141); */
+    background-image: linear-gradient(to right, rgb(52, 74, 94) , rgb(74, 169, 247));
+    line-height:50px;
+    font-size: 25px;
+    
+}
+ nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    padding:5px;
+    
+}
+nav a:hover{
+    background-color: #2c2c2c;
+    border-radius:10px;
+    height: 80%;
+}
+.logo{
+    display: inline-block;
+    margin-right: 150px;
+    color:rgb(255, 255, 255);
+}
+/* @media only screen and (max-width: 500px) {
+    .Header{
+        text-align:center;
+    }
+    .logo{
+        display: inline-block;
+        margin-right: 250px;
+        color:rgb(0, 0, 0);
+    }
+    .Header nav{
+        background-color: rgb(5, 181, 235);
+        line-height:25px;
+        font-size: 10px;
+    }
+  } */
