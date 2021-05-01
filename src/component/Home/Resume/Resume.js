@@ -2,8 +2,8 @@ import React from 'react';
 
 const Resume = () => {
     return (
-        <div>
-                <a href="https://drive.google.com/file/d/1dB2Y1cU1Eyj_E8vKB6w2v9omybtDDud1/view?usp=sharing" target="_blank" class="mt-4 downloadCV btn btn-primary">
+        <div className=" bg-dark text-white">
+                <a href="https://drive.google.com/uc?export=download&id=1dB2Y1cU1Eyj_E8vKB6w2v9omybtDDud1" target="_blank" class="mt-4 downloadCV btn btn-primary">
                 <i class="fas fa-download">&nbsp;</i>Download Resume</a>
 
            
@@ -36,7 +36,7 @@ const Resume = () => {
                           <h1 className="text-primary">Skills</h1>
 
 
-                          <div className=" border ml-5 mt-3">
+                          <div className=" border me-5 mt-3">
                            <h6>Full Stack</h6>
                          <h6>
                           Html,Css,Bootstrap ,JavaScript 
@@ -46,7 +46,7 @@ const Resume = () => {
                           JSON</h6>
                         </div>
 
-                        <div className=" border ml-5 mt-3">
+                        <div className=" border me-5 mt-3">
                            <h6>Deployment</h6>
                          <h6>Heroku,Github</h6>
                           <h6>Firebase</h6>
@@ -54,7 +54,7 @@ const Resume = () => {
                         </div>
 
 
-                           <div className=" border ml-5 mt-3">
+                           <div className=" border me-5 mt-3">
                            <h6>Programming Language</h6>
                          <h6>C</h6>
                           <h6>Python</h6>
@@ -67,7 +67,7 @@ const Resume = () => {
                          </div>
 
 </div>
-<a href="https://drive.google.com/file/d/1dB2Y1cU1Eyj_E8vKB6w2v9omybtDDud1/view?usp=sharing" target="_blank" class="mt-4 downloadCV btn btn-primary">
+<a href="https://drive.google.com/uc?export=download&id=1dB2Y1cU1Eyj_E8vKB6w2v9omybtDDud1" target="_blank" class="mt-4 downloadCV btn btn-primary">
                 <i class="fas fa-download">&nbsp;</i>Download Resume</a>
 
         </div>

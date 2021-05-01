@@ -40,8 +40,8 @@ const Home = () => {
 </div></div>
 
             
-            <a href="https://drive.google.com/file/d/1dB2Y1cU1Eyj_E8vKB6w2v9omybtDDud1/view?usp=sharing" target="_blank" class="mt-4 downloadCV btn btn-primary">
-                <i class="fas fa-download">&nbsp;</i>Download CV</a>
+            <a href="https://drive.google.com/uc?export=download&id=1dB2Y1cU1Eyj_E8vKB6w2v9omybtDDud1" target="_blank" class="mt-4 downloadCV btn btn-primary">
+                <i class="fas fa-download">&nbsp;</i>Download Resume</a>
             </div>
            
         </div>
