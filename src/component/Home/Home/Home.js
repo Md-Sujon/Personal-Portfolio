@@ -44,7 +44,7 @@ const Home = () => {
 </div></div>
 
             
-            <a href="https://drive.google.com/uc?export=download&id=1dB2Y1cU1Eyj_E8vKB6w2v9omybtDDud1" target="_blank" class="mt-4 downloadCV btn btn-primary">
+            <a href="https://drive.google.com/uc?export=download&id=1dB2Y1cU1Eyj_E8vKB6w2v9omybtDDud1" target="blank" class="mt-4 downloadCV btn btn-primary">
              Download Resume</a>
             
                 {/* <i class="fas faDownload">&nbsp;</i> */}
