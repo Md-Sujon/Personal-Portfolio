@@ -1,13 +1,14 @@
 import React from 'react';
 import image from '../../../image/sujon2.png'
 import ProgressBar from 'react-bootstrap/ProgressBar'
+import './About.css'
 
 const About = () => {
     return (
-        <div className="row bg-dark text-white">
+        <div className="row bg-dark text-white ">
             
-            <div className="col-md-6 ms-5 text-center mt-5 py-5">
-                <h4 className="fw-bold">Who am i?</h4>
+            <div className="col-md-6 ms-5 text-center mt-5 py-5 ">
+                <h4 className="fw-bold about">Who am i?</h4>
                 <h1>I'm Md Sujon, a visual </h1>
                 <h1 className="fw-bold text-primary"><span>Full Stack Developer</span></h1>
               <p>Courteous and enthusiastic. I am a full-stack Web developer

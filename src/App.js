@@ -22,7 +22,7 @@ function App() {
       <Navbar></Navbar>
         <Switch>
 
-        <Route exact path="/Home">
+        <Route exact path="/">
         <Home></Home>
         <About></About>
         <Resume></Resume>
@@ -31,12 +31,19 @@ function App() {
         <Contact></Contact>
         </Route>
 
+        <Route path="/home">
+        <Home></Home>
+        <About></About>
+        <Resume></Resume>
+        <Project></Project>
+        <Blog></Blog>
+        <Contact></Contact>
+          </Route>
+
           <Route  path="/Home">
         <Home></Home>
           </Route>
-          <Route exact path="/">
-        <Home></Home>
-          </Route>
+          
 
           <Route path="/about">
            <About></About>
