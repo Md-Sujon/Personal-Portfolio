@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../../../image/sujon2.png'
+import image from '../../../image/program1.png'
 import ProgressBar from 'react-bootstrap/ProgressBar'
 import './About.css'
 
@@ -7,7 +7,7 @@ const About = () => {
     return (
         <div className="row bg-dark text-white ">
             
-            <div className="col-md-6 ms-5 text-center mt-5 py-5 ">
+            <div className="col-md-7 about about-1 text-center ">
                 <h4 className="fw-bold about">Who am i?</h4>
                 <h1>I'm Md Sujon, a visual </h1>
                 <h1 className="fw-bold text-primary"><span>Full Stack Developer</span></h1>
@@ -17,8 +17,8 @@ const About = () => {
                   high-quality revel in with the first-rate degree of exceptional
                     and service to them</p>
             </div>
-            <div className="col-md-5">
-            <img className="img me-5 mt-5" src={image} alt=""></img>
+            <div className="col-md-4">
+            <img className="img-1" src={image} alt=""></img>
             </div>
 
             <h1 className="text-center  mt-5 fw-bold text-primary mb-5">My Skills</h1>
@@ -26,7 +26,7 @@ const About = () => {
 
                <div className="">
                    <div className="row justify-content-center">
-                   <div className="col-md-5  text-start">
+                   <div className="col-md-6  text-center res">
                    <h2 className="text-danger">Html</h2><ProgressBar  className="pl-5 mt-3" animated now={90} />
                    <h2 className="text-primary">Css</h2><ProgressBar  className="pl-5 mt-3" animated now={80} />
                    <h2 className="text-success">Bootstrap</h2><ProgressBar  className="pl-5 mt-3" animated now={70} />

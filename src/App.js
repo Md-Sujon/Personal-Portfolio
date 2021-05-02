@@ -15,6 +15,7 @@ import Contact from './component/Home/Contact/Contact';
 import Project from './component/Home/Project/Project';
 import Footer from './component/Home/Footer/Footer';
 
+
 function App() {
   return (
     <div className="App">
@@ -39,11 +40,6 @@ function App() {
         <Blog></Blog>
         <Contact></Contact>
           </Route>
-
-          <Route  path="/Home">
-        <Home></Home>
-          </Route>
-          
 
           <Route path="/about">
            <About></About>

@@ -17,7 +17,7 @@ const Contact = () => {
 
     return (
         <div className="bg-dark">
-            <div className="container">
+            <div className="container ">
             <form onSubmit={sendEmail}>
                     <div className="row pt-5 mx-auto">
                         <div className="col-8 form-group mx-auto">
@@ -36,8 +36,25 @@ const Contact = () => {
                             <input type="submit" className="btn btn-primary" value="Send Message"></input>
                         </div>
                     </div>
+
+<div className="row text-white justify-content-center mt-5">
+    <div className="col-md-3 border border-success">
+        <h4>Mobile</h4>
+        <h6>01716059420</h6>
+    </div>
+    <div className="col-md-3 border border-success">
+    <h4>Email</h4>
+    <h6>mdsujon829562@gmail.com</h6>
+    </div>
+
+</div>
+
+
+
                 </form>
+               
             </div>
+            
         </div>
     );
 };

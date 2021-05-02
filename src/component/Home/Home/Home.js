@@ -13,7 +13,7 @@ const Home = () => {
           
             <div className="col-md-5 mt-5">
                  
-                   <img className="img" src={image} alt=""></img>
+                   <img className="img " src={image} alt=""></img>
                  
             </div>
 
