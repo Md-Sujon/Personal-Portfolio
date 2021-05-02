@@ -5,19 +5,21 @@ import ProgressBar from 'react-bootstrap/ProgressBar'
 const About = () => {
     return (
         <div className="row bg-dark text-white">
-            <div className="col-md-5">
-            <img className="img" src={image} alt=""></img>
-            </div>
-            <div className="col-md-6 text-start mt-5 py-5">
+            
+            <div className="col-md-6 ms-5 text-center mt-5 py-5">
                 <h4 className="fw-bold">Who am i?</h4>
                 <h1>I'm Md Sujon, a visual </h1>
                 <h1 className="fw-bold text-primary"><span>Full Stack Developer</span></h1>
               <p>Courteous and enthusiastic. I am a full-stack Web developer
-with html,css,javascript,react.Js,node.Js and MongoDB as my
-tack stack. My goal is constantly pushed towards presenting
-high-quality revel in with the first-rate degree of exceptional
-and service to them</p>
+               with html,css,javascript,react.Js,node.Js and MongoDB as my
+                 tack stack. My goal is constantly pushed towards presenting
+                  high-quality revel in with the first-rate degree of exceptional
+                    and service to them</p>
             </div>
+            <div className="col-md-5">
+            <img className="img me-5 mt-5" src={image} alt=""></img>
+            </div>
+
             <h1 className="text-center  mt-5 fw-bold text-primary mb-5">My Skills</h1>
 
 
