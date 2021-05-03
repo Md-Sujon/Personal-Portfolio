@@ -1,16 +1,6 @@
-
-.Header{
-    text-align: right;
-    
-    
-    
-}
-.Header{
-    /* background-color: rgb(2, 109, 141); */
-    background-image: linear-gradient(to right, rgb(52, 74, 94) , rgb(74, 169, 247));
-    line-height:50px;
-    font-size: 25px;
-    
+.nav{
+    position:fixed;
+    width:100%;
 }
 .text{
     margin-left: 200px;
@@ -31,18 +21,28 @@ nav a:hover{
     margin-right: 150px;
     color:rgb(255, 255, 255);
 }
-/* @media only screen and (max-width: 500px) {
-    .Header{
-        text-align:center;
-    }
-    .logo{
-        display: inline-block;
-        margin-right: 250px;
-        color:rgb(0, 0, 0);
-    }
-    .Header nav{
-        background-color: rgb(5, 181, 235);
-        line-height:25px;
-        font-size: 10px;
-    }
-  } */
+
+.links{
+    padding: 10px;
+    border-radius: 10px;
+}
+.navbar-toggler{
+    border: 2px solid white!important;
+}
+.nav-link:hover{
+    background-color:#016964;
+  }
+
+  .navbar-toggler{
+      background-color:#014210;
+  }
+
+  .navbar{
+    background-image: linear-gradient(to right, rgb(29, 45, 59) ,rgb(252, 220, 43));
+  }
+  .nav-link{
+      cursor: pointer;
+  }
+
+
+

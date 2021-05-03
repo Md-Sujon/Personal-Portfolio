@@ -1,12 +1,15 @@
 .Typewriter__wrapper {
     font-size: 1.2em!important;
-    color: #f9004d!important;
+    color: #FFC107!important;
     font-weight: 900!important;
     font-family: montserrat;
 }
 .size{
     height:470px;
+    background-color: #212529;
     font-size: 3.2em!important;
+/* background-image: url('../../../image/back.png'); */
+    
     
 }
 .margin{

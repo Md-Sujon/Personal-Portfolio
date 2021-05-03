@@ -1,49 +1,31 @@
 import React from 'react';
-import { Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import './Navbar.css'
+import './Navbar.css';
+import {animateScroll as scroll} from 'react-scroll'; 
 
 const Navbar = () => {
     return (
       
-  <nav className="navbar navbar-expand-lg fw-bold Header">
-    <h1 className="text-primary"><Link class="text-uppercase fw-bold ms-5" to="Home">personal-website</Link></h1>
-
- 
-  <a className="navbar-brand text" href="home">Home</a>
-  <button class="navbar-toggler btn-white responsive-navbar-nav" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div className="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul className="navbar-nav mr-auto">
-    <li className="nav-item active">
-        <a className="navbar-brand" href="About">About<span class="sr-only">(current)</span></a>
-      </li>
-      <li className="nav-item">
-        <a className="navbar-brand" href="Resume">Resume</a>
-      </li>
-      
-      <li className="nav-item">
-        <a className="navbar-brand" href="Project">Project</a>
-      </li>
-
-      <li className="nav-item">
-        <a className="navbar-brand" href="Blog">Blog</a>
-      </li>
-
-      <li className="nav-item">
-        <a className="navbar-brand" href="Contact">Contact</a>
-      </li>
-    </ul>
-    
+      <div>
+      <nav className="navbar fixed-top navbar-expand-lg navbar-light fw-bold">
+          <div className="container-fluid">
+              <a style={{cursor:'pointer'}} className="navbar-brand text-white" onClick={()=>{scroll.scrollToTop()}}><h2>Md Sujon</h2></a>
+              <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span className="navbar-toggler-icon"></span>
+              </button>
+              <div className="collapse navbar-collapse topbar" id="navbarNavAltMarkup">
+                  <div className="ms-auto text-center navbar-nav">
+                      <a className="nav-link links active me-2 text-white" onClick={()=>{scroll.scrollToTop()}}></a>
+                      <Link className="nav-link links active me-2 text-white" to="Home" smooth={true} duration={1000}>Home</Link>
+                      <Link className="nav-link links active me-2 text-white" to="about" smooth={true} duration={1000}>About</Link>
+                      <Link className="nav-link links active me-2 text-white" to="project" smooth={true} duration={1000}>Project</Link>
+                      <Link className="nav-link links active me-2 text-white" to="blog" smooth={true} duration={1000}>Blog</Link>
+                      <Link className="nav-link links active me-2 text-white" to="contact" smooth={true} duration={1000}>Contact</Link> 
+                  </div>
+              </div>
+          </div>
+      </nav>
   </div>
-  
-</nav>
-
-
-      
-  
     );
 };
 

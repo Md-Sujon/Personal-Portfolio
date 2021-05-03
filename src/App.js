@@ -16,7 +16,9 @@ import Project from './component/Home/Project/Project';
 import Footer from './component/Home/Footer/Footer';
 
 
+
 function App() {
+  
   return (
     <div className="App">
       <Router>

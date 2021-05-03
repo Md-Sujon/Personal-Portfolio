@@ -2,14 +2,14 @@ import React from 'react';
 import Typewriter from "typewriter-effect";
 import './Home.css'
 import image from '../../../image/sujon2.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 
 const Home = () => {
+
     return (
-        <div className="row bg-dark size">
+        <div className="row size back">
           
             <div className="col-md-5 mt-5">
                  
@@ -23,7 +23,7 @@ const Home = () => {
             <h3>Welcome My Website</h3>
             <h1 className="title">I’M MD SUJON<FontAwesomeIcon icon={['fab', 'apple']} /></h1>
             
-<div style={{textAlign:'center'}}><div className="Typewriter" data-testid="typewriter-wrapper">
+<div style={{textAlign:'center' ,textColor:'blue'}}><div className="Typewriter" data-testid="typewriter-wrapper">
     <span className="Typewriter__wrapper">
     <Typewriter
         
@@ -35,7 +35,12 @@ const Home = () => {
             
         .pauseFor(1000)
         .deleteAll()
-        .typeString("Welcomes You")
+        .typeString("Web Designer")
+        .pauseFor(1000)
+        .deleteAll()
+        .typeString("Welcome You")
+        .deleteAll()
+        .typeString("Welcome my Website")
         .start();
         }}
         />
@@ -44,7 +49,7 @@ const Home = () => {
 </div></div>
 
             
-            <a href="https://drive.google.com/uc?export=download&id=1dB2Y1cU1Eyj_E8vKB6w2v9omybtDDud1" target="blank" class="mt-4 downloadCV btn btn-primary">
+            <a href="https://drive.google.com/uc?export=download&id=1dB2Y1cU1Eyj_E8vKB6w2v9omybtDDud1" target="blank" class="mt-4 downloadCV btn btn-warning">
              Download Resume</a>
             
                 {/* <i class="fas faDownload">&nbsp;</i> */}

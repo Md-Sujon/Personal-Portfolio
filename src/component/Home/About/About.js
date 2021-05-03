@@ -5,28 +5,29 @@ import './About.css'
 
 const About = () => {
     return (
-        <div className="row bg-dark text-white ">
+        <div className="row bg-dark text-white">
             
-            <div className="col-md-7 about about-1 text-center ">
-                <h4 className="fw-bold about">Who am i?</h4>
-                <h1>I'm Md Sujon, a visual </h1>
-                <h1 className="fw-bold text-primary"><span>Full Stack Developer</span></h1>
+            <div className="col-md-7 about about text-center">
+                   
+                <h4 className="fw-bold about-1 ">Who am i?</h4>
+                <h1>I'm Md Sujon</h1>
+                <h1 className="fw-bold text-warning"><span>Full Stack Developer</span></h1>
               <p>Courteous and enthusiastic. I am a full-stack Web developer
                with html,css,javascript,react.Js,node.Js and MongoDB as my
                  tack stack. My goal is constantly pushed towards presenting
                   high-quality revel in with the first-rate degree of exceptional
                     and service to them</p>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 mt-5">
             <img className="img-1" src={image} alt=""></img>
             </div>
 
-            <h1 className="text-center  mt-5 fw-bold text-primary mb-5">My Skills</h1>
+            <h1 className="text-center  mt-5 fw-bold text-warning mb-5">My Skills</h1>
 
 
                <div className="">
                    <div className="row justify-content-center">
-                   <div className="col-md-6  text-center res">
+                   <div className="col-md-6  text-start res">
                    <h2 className="text-danger">Html</h2><ProgressBar  className="pl-5 mt-3" animated now={90} />
                    <h2 className="text-primary">Css</h2><ProgressBar  className="pl-5 mt-3" animated now={80} />
                    <h2 className="text-success">Bootstrap</h2><ProgressBar  className="pl-5 mt-3" animated now={70} />
@@ -47,7 +48,7 @@ const About = () => {
                         </div>
                    </div>
 
-                   <h1 className="text-center  mt-5 fw-bold text-primary">My Others Skills</h1>
+                   <h1 className="text-center  mt-5 fw-bold text-warning">My Others Skills</h1>
                    <div className="row justify-content-center">
 
                         <div className="col-md-5">

@@ -1,13 +1,14 @@
 .project img{
-    width:90%;
+    width:92%;
     height: 250px;
 }
 /* .click{
     margin-left: 10px;
 } */
-.shift{
-    margin-bottom: -20px;
+.pad{
+  margin-top:100px;
 }
+
 
 .card-1 {
     box-shadow: 0 1px 3px rgba(250, 3, 3, 0.555), 0 1px 2px rgba(189, 77, 77, 0.521);
@@ -57,10 +58,10 @@
   
   .warpper {
     margin: 60px 10px 10px;
-    padding-top: 300px;
+    padding-top: 265px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    position: relative;
+            position: hidden;
     -webkit-box-shadow: 0 0 20px 10px rgba(25, 25, 25, 0.1);
             box-shadow: 0 0 20px 10px rgba(25, 25, 25, 0.1);
     -webkit-transition: ease all .3s;
@@ -70,14 +71,19 @@
   .warpper:hover {
     -webkit-transform: translateY(-10px);
             transform: translateY(-10px);
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+            -webkit-transform: translateL(-10px);
+            transform: translateL(-10px);
   }
   
   .warpper:hover .card_img {
-    height: 350px;
+    height: 270px;
+    width: 275px;
   }
   
   .warpper .heart {
-    position: absolute;
+    position: hidden;
     top: 20px;
     right: 20px;
     z-index: 1;
@@ -94,40 +100,15 @@
   .warpper .heart:hover {
     cursor: pointer;
   }
-  
-  .color_bg {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 200px;
-  }
-  
-  .color_bg.batman {
-    background-color: #b82d44;
-  }
-  
-  .color_bg.blackpanter {
-    background-color: #1d1d1d;
-  }
-  
-  .color_bg.arthur {
-    background-color: #153a82;
-  }
-  
-  .color_bg.kashima {
-    background-color: #3f4a69;
-  }
-  
-  .card_img {
+
+    .card_img {
     background-size: contain;
     background-position: center bottom;
     background-repeat: no-repeat;
     position: absolute;
-    bottom: calc(100% - 300px);
-    width: 100%;
-    height: 300px;
+    bottom: calc(98% - 250px);
+    width: 90%;
+    height: 100px;
     -webkit-transition: ease all .3s;
     transition: ease all .3s;
   }
