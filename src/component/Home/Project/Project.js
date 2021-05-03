@@ -6,7 +6,7 @@ import './Project.css'
 
 const Project = () => {
     return (
-        <div className="bg-dark">
+        <div className="bg-dark ">
 
                    <div className="row project justify-content-center">
                    <h1 className="text-warning mt-5">Project</h1>

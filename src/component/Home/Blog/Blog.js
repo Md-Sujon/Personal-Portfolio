@@ -5,9 +5,9 @@ import image2  from '../../../image/333.png'
 
 const Blog = () => {
     return (
-        <div className="justify-content-center bg-dark ">
+        <div className=" bg-dark ">
                     
-            <div className="row project ">
+            <div className="row project justify-content-center">
             <h1 className="mt-5 text-warning">Blog</h1>
             <div className="col-md-3 card card-1 m-3 warpper bg-dark border border-warning text-white">
                     
