@@ -14,6 +14,8 @@ import Blog from './component/Home/Blog/Blog';
 import Contact from './component/Home/Contact/Contact';
 import Project from './component/Home/Project/Project';
 import Footer from './component/Home/Footer/Footer';
+import Particles from 'react-particles-js';
+
 
 
 
@@ -21,6 +23,31 @@ function App() {
   
   return (
     <div className="App">
+      <Particles
+        className='fixed-top'
+        params={{
+          "particles": {
+            "number": {
+              "value": 50
+            },
+            "size": {
+              "value": 2
+            }
+          },
+          "interactivity": {
+            "events": {
+              "onhover": {
+                "enable": true,
+                "mode": "repulse"
+              }
+            }
+          }
+        }}
+        height='100vh'
+        style={{ position: 'absolute', zIndex: '-9999'}}
+      />
+      <div style={{ position: 'relative', zIndex: '9999' ,overflowX:'hidden'}}>
+     
       <Router>
       <Navbar></Navbar>
         <Switch>
@@ -66,9 +93,7 @@ function App() {
         </Switch>
         <Footer></Footer>
       </Router>
-        
-        
-        
+      </div>
     </div>
   );
 }

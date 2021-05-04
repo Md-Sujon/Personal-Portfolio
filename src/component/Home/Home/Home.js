@@ -1,5 +1,5 @@
 import React from 'react';
-import Typewriter from "typewriter-effect";
+import Typical from 'react-typical'
 import './Home.css'
 import image from '../../../image/sujon2.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -23,30 +23,23 @@ const Home = () => {
             <h3>Welcome My Website</h3>
             <h1 className="title">I’M MD SUJON<FontAwesomeIcon icon={['fab', 'apple']} /></h1>
             
-<div style={{textAlign:'center' ,textColor:'blue'}}><div className="Typewriter" data-testid="typewriter-wrapper">
-    <span className="Typewriter__wrapper">
-    <Typewriter
-        
-        onInit={(typewriter)=> {
+<div style={{textAlign:'center' ,textColor:'blue'}}>
 
-        typewriter
-        
-        .typeString("Web Developer")
-            
-        .pauseFor(1000)
-        .deleteAll()
-        .typeString("Web Designer")
-        .pauseFor(1000)
-        .deleteAll()
-        .typeString("Welcome You")
-        .deleteAll()
-        .typeString("Welcome my Website")
-        .start();
-        }}
-        />
-    </span>
-
-</div></div>
+<h3 className="text-warning">
+                    <Typical className="green-effect" 
+                    loop={Infinity} 
+                    wrapper="b"
+                    steps={[
+                        'I am Web Developer',
+                        1000,
+                        'I am Programmer',
+                        1000,
+                        "I am Engineer",
+                        1000
+                    ]}
+                    />
+            </h3>
+</div>
 
             
             <a href="https://drive.google.com/uc?export=download&id=1dB2Y1cU1Eyj_E8vKB6w2v9omybtDDud1" target="blank" class="mt-4 downloadCV btn btn-warning">
