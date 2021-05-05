@@ -5,7 +5,7 @@ import './Footer.css'
 
 const Footer = () => {
     return ( 
-        <div className="bg-dark">
+        <div className="">
 
                         <ul className="social-media list-inline size sujon ">
                             <li className="list-inline-item mt-5 "><a href="https://www.facebook.com/profile.php?id=100009262261632" target="blank"><FontAwesomeIcon className="icon active-icon icon-1" icon={faFacebookSquare} /></a></li>

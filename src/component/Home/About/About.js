@@ -5,7 +5,7 @@ import './About.css'
 
 const About = () => {
     return (
-        <div className="row bg-dark text-white">
+        <div className="row text-white">
             
             <div className="col-md-7 about about text-center">
                    

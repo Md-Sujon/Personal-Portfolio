@@ -3,7 +3,7 @@ import './Resume.css'
 
 const Resume = () => {
     return (
-        <div className=" bg-dark text-white">
+        <div className="text-white">
                 <a href="https://drive.google.com/uc?export=download&id=1dB2Y1cU1Eyj_E8vKB6w2v9omybtDDud1" target="blank" class="mt-4 downloadCV btn btn-warning">
                 <i class="fas fa-download">&nbsp;</i>Download Resume</a>
 

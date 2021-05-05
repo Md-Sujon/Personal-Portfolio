@@ -14,7 +14,7 @@ useEffect(() =>{
 }, [])
 
     return (
-        <div className="bg-dark ">
+        <div className=" ">
 
                    <div className="row project justify-content-center">
                    <h1 className="text-warning mt-5">Project</h1>

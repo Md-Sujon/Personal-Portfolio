@@ -12,7 +12,7 @@ const Blog = () => {
     }, [])
 
     return (
-        <div className=" bg-dark ">
+        <div className=" ">
                     
             <div className="row project justify-content-center">
             <h1 className="mt-5 text-warning">Blog</h1>
