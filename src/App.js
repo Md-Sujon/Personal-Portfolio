@@ -3,8 +3,7 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route
-
+  Route,
 } from "react-router-dom";
 import Home from './component/Home/Home/Home';
 import Navbar from './component/Home/Navbar/Navbar';
