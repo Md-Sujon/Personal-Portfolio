@@ -3,14 +3,22 @@ import image from '../../../image/1111.PNG'
 import image1 from '../../../image/2222.png'
 import image2 from '../../../image/3333.png'
 import './Project.css'
+import {useEffect} from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Project = () => {
+
+useEffect(() =>{
+    Aos.init({duration:2000})
+}, [])
+
     return (
         <div className="bg-dark ">
 
                    <div className="row project justify-content-center">
                    <h1 className="text-warning mt-5">Project</h1>
-                    <div className="col-md-3 card card-1 m-3 warpper border border-warning bg-dark text-white">
+                    <div data-aos="flip-right" className="col-md-3 card card-1 m-3 warpper border border-warning bg-dark text-white ">
                             <h6 className="text-warning">Argentina-national-Football-Team</h6>
                           <img className="card_img " src={image} alt=""/>
                           <p className="mt-3 "><small>Argentina-national-Football-Team-Demo.
@@ -25,7 +33,7 @@ const Project = () => {
                         <i className="fas fa-download">&nbsp;</i>Code</a>
                         </div>
         
-                    <div className="col-md-3 card m-3 card-1 warpper border border-warning bg-dark text-white">
+                    <div data-aos="flip-right" className="col-md-3 card m-3 card-1 warpper border border-warning bg-dark text-white">
                     <h6 className="text-warning">AlifaOnline-Shop</h6>
                     <img className="card_img" src={image1} alt=""/>
                           <p className="mt-3"><small>This is a demo e-commerce Online-shop.
@@ -40,7 +48,7 @@ const Project = () => {
                         <i className="fas fa-download">&nbsp;</i>Code</a>
                         </div>
         
-                    <div className="col-md-3 card border border-warning bg-dark text-white m-3 card-1 warpper">
+                    <div data-aos="flip-right" className="col-md-3 card border border-warning bg-dark text-white m-3 card-1 warpper">
                     <h6 className="text-warning">Computer-Bangladesh</h6>
                     <img className="card_img" src={image2} alt=""/>
                           <p className="mt-3"><small>This Educational Demo-website.

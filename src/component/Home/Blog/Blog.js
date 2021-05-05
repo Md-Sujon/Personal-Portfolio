@@ -2,14 +2,21 @@ import React from 'react';
 import image  from '../../../image/111.png'
 import image1  from '../../../image/222.png'
 import image2  from '../../../image/333.png'
+import {useEffect} from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Blog = () => {
+    useEffect(() =>{
+        Aos.init({duration:2000})
+    }, [])
+
     return (
         <div className=" bg-dark ">
                     
             <div className="row project justify-content-center">
             <h1 className="mt-5 text-warning">Blog</h1>
-            <div className="col-md-3 card card-1 m-3 warpper bg-dark border border-warning text-white">
+            <div data-aos="flip-right" className="col-md-3 card card-1 m-3 warpper bg-dark border border-warning text-white">
                     
                   <img className="mt-2 card_img" src={image2} alt=""/>
                   <p><small>These are not my writings.These are writings Jhankar Mahbub Sir.</small></p>
@@ -19,7 +26,7 @@ const Blog = () => {
                 <i className="fas fa-download">&nbsp;</i>See More</a>
                 </div>
 
-            <div className="col-md-3 card m-3 card-1 warpper bg-dark border border-warning text-white">
+            <div data-aos="flip-right" className="col-md-3 card m-3 card-1 warpper bg-dark border border-warning text-white">
             
             <img className="mt-2 card_img" src={image1} alt=""/>
             <p><small>These are not my writings.These are writings Jhankar Mahbub Sir.</small></p>
@@ -29,7 +36,7 @@ const Blog = () => {
                 <i className="fas fa-download">&nbsp;</i>See More</a>
                 </div>
 
-            <div className="col-md-3 card m-3 card-1 warpper bg-dark border border-warning text-white">
+            <div data-aos="flip-right" className="col-md-3 card m-3 card-1 warpper bg-dark border border-warning text-white">
             
             <img className="mt-2 card_img" src={image} alt=""/>
             <p><small>These are not my writings.These are writings Jhankar Mahbub Sir.</small></p>
